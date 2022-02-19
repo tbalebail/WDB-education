@@ -1,0 +1,136 @@
+/* Ignore following classes */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possible case to build you flags, you will have to continue to add your own*/
+  
+  .flag {
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+  }
+  
+  .horiz {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .twovert {
+    height: 50%;
+  }
+  
+  .threevert {
+    height: 33.3%;
+  }
+
+  .fivevert {
+    height: 20%;
+  }
+
+  .ninevert {
+      height: 11.111%;
+  }
+  
+  .threehoriz {
+    width: 33.3%;
+  }
+  
+  .skinny {
+    height: 17.5%;
+  }
+  
+  .fat {
+    height: 30%;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    height: 55%;
+    width: 100%;
+    position: relative;
+    top: 25%;
+  }
+
+  .square {
+    height: 50%;
+    width: 33.33%;
+    position: relative;
+    bottom: 100%
+  }
+
+  .crossvert {
+    height: 11.111%;
+    width: 33.33%;
+    position: relative;
+    bottom: 127.5%;
+  }
+
+  .crosshoriz {
+    height: 55.56%;
+    width: 33.33px;
+    position: relative;
+    left: 14%;
+    bottom: 161.25%;
+  }
+
+  
+  /* Colors/ Feel free to add your own! */
+  
+  .red {
+    background-color: red;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
